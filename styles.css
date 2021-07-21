@@ -75,6 +75,11 @@ li a:hover{
 
 /* Habit page styling */
 
+.habbit-intro{
+  text-align: center;
+  font-size: 2rem;
+}
+
 .image-gallery {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -110,10 +115,14 @@ li a:hover{
 }
 
 
+/* Footer styling  */
+
+
 footer{
   text-align: center;
   background-color: black;
   color: aliceblue;
+  word-spacing: 3px;
 }
 
 .social-media{
@@ -123,4 +132,5 @@ footer{
 
 .social-media :hover{
   color: aqua;
+  cursor: pointer;
 }
