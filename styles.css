@@ -35,7 +35,7 @@ li a{
 }
 
 li a:hover{
-    background-color: rgb(11, 201, 248);
+    background-color: aqua;
 }
 
 #profile-pic{
@@ -107,4 +107,20 @@ li a:hover{
   border: 1px solid rgb(11, 201, 248);
   border-radius: 15px;
   padding: 5px;
+}
+
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+
+.social-media{
+  font-size: 2rem;
+  word-spacing: 1rem;
+}
+
+.social-media :hover{
+  color: aqua;
 }
